@@ -1,0 +1,43 @@
+print(r'''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\ ` . "-._ /_______________|_______
+|                  | |o ;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+''')
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.")
+direction=input("choose the direction which you want to go either in left or right\nType your answer")
+if direction== "Left" or direction== "left":
+    be= input("You choose right path😊\nNow you came near to Lake🏖️ so do you want to wait or do you want to swim\nType your answer here")
+    if be == "wait" or be == "Wait":
+        print(" you again choose right path👌 , there is a boat go on it🚣‍♀️")
+        door = input("As of now you came further, you have to choose onr door🚪.which colour door you want to choose\n RED OR YELLOW OR BLUE")
+        if door == "RED" or door == "red":
+            print(" ohhhh nooo Burned by fire🔥\n GAME OVER☠️")
+        elif door == "YELLOW" or door == "yellow":
+            print("You are BRILLIANT\nYou win🏆🎆🎊🎗️🥳")
+        elif door == "BLUE" or door == "blue":
+            print(" ooohhh nooo Eaten by beasts☠👻\nGAME OVER")
+        else:
+            print("Game OVER☠️")
+    else:
+        print(" oh nooo you choose wrong option😨 ,you attacked by trout\nGAME OVER☠️")
+
+elif direction =="Right"or"right":
+    print("you fell in to a hole\n GAME OVER")
